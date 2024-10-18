@@ -1,0 +1,10 @@
+.imgContainer img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  padding: 32px;
+}

@@ -1,0 +1,34 @@
+.menuRowContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  background-color: #0e1317;
+  gap: 32px;
+  padding: 12px;
+  margin: 64px;
+}
+
+.menuContainer {
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+}
+
+.menuContainer .imgContainer {
+  color: #fff;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuContainer .imgContainer:hover {
+  background-color: rgb(94, 81, 81);
+  border-radius: 50%;
+}
+.menuContainer .descContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}

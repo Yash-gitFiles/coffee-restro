@@ -1,0 +1,17 @@
+.ulContainer {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 16px;
+}
+
+.ulContainer li {
+  list-style-type: none;
+  cursor: pointer;
+  background-color: #424242;
+  padding: 12px;
+}
+
+.ulContainer li:hover {
+  background-color: #b99272;
+}

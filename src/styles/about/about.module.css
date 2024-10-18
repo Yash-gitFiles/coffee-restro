@@ -1,0 +1,15 @@
+.imgContainer {
+  position: relative;
+}
+
+.imgContainer img {
+  height: 75vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.imgContainer h3 {
+  position: absolute;
+  top: 150px;
+  font-size: 4rem;
+}

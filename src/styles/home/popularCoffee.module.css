@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Oswald:wght@200..700&family=Protest+Riot&display=swap");
+
+.mainContainer {
+  padding: 64px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.container {
+  display: grid;
+  gap: 16px;
+  border: 2px solid white;
+  grid-template-columns: 1fr 1fr;
+  cursor: pointer;
+}
+
+.container .descContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.container .descContainer .prise {
+  font-size: 1.5rem;
+  font-family: "Madimi One", sans-serif;
+}
+
+.container .imgContainer {
+  overflow: hidden;
+}
+.container .imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container .imgContainer img:hover {
+  scale: 1.1;
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    border: 2px solid white;
+    grid-template-columns: 1fr;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 500px) {
+  .mainContainer {
+    padding: 32px;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
+@media screen and (max-width: 320px) {
+  .mainContainer {
+    padding: 32px;
+    gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+}

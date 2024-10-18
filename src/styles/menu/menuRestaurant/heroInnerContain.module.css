@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 16px;
+}
+
+.container .imgContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.container .foodDescContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}

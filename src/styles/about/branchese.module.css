@@ -1,0 +1,26 @@
+.branchRowContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 16px;
+  padding: 32px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imgContainer img {
+  height: 70%;
+  width: 70%;
+  object-fit: contain;
+  aspect-ratio: 3/2;
+  filter: brightness(20%);
+  cursor: pointer;
+  padding: 16px;
+}
+
+.imgContainer img:hover {
+  filter: brightness(100%);
+  transition: all 0.6s ease;
+}

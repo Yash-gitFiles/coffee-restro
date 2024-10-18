@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Bungee+Inline&family=Kode+Mono:wght@400..700&family=Madimi+One&family=Oswald:wght@200..700&family=Protest+Riot&display=swap");
+.footerContainer {
+  height: 70vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 4fr;
+}
+
+.footerContainer .firstFooterContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 32px;
+  gap: 32px;
+}
+
+.footerContainer .firstFooterContainer .workigHoursContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.logoContainer,
+.workingTitle,
+.concatTitle,
+.gallertTitle {
+  font-family: "Bungee Inline", sans-serif;
+}
+
+.firstFooterContainer .workigHoursContainer .workingInfoContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 64px;
+}
+.footerContainer .firstFooterContainer .contactUsContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.contactUsContainer .contactInfoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 24px;
+}
+
+.contactInfoContainer div i {
+  color: #b9926c;
+  font-size: 1.5rem;
+}
+
+.footerContainer .firstFooterContainer .galleryContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.galleryContainer .galleryImgContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 16px;
+  overflow: hidden;
+}
+
+.galleryContainer .galleryImgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footerContainer .secondFooterContainer {
+  background-color: #090c0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}

@@ -1,0 +1,25 @@
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.titleContainer .title {
+  color: #ae885a;
+  font-size: 2rem;
+}
+
+.titleContainer .desc {
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .titleContainer .title {
+    font-size: 1rem;
+  }
+  .titleContainer .desc {
+    font-size: 1.37rem;
+  }
+}

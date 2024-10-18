@@ -1,0 +1,12 @@
+.imgContainer img {
+  height: 80vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.imgContainer h5 {
+  top: 170px;
+  color: whitesmoke;
+  font-size: 3rem;
+}

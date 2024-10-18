@@ -1,0 +1,69 @@
+.waiterRowContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 16px;
+  gap: 16px;
+}
+
+.waiterContainer {
+  background-color: #0e1317;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+}
+
+.imgContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.imgContainer:hover {
+  scale: 1.1;
+  transition: all 0.9s ease;
+}
+
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 16px;
+  aspect-ratio: 3/2;
+}
+
+.imgContainer .innerDesc {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.imgContainer .iconContainer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.iconContainer i {
+  color: #b99272;
+  background-color: white;
+  font-size: 1.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 6px;
+  opacity: 0;
+}
+
+.imgContainer:hover .innerDesc,
+.imgContainer:hover .iconContainer i {
+  opacity: 1;
+}
+
+.imgContainer:hover {
+  opacity: 0.5;
+}

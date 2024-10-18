@@ -1,0 +1,56 @@
+.imgContainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+.reservationContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 32px;
+}
+
+.reservationContainer .imgOneContainer {
+  height: 70vh;
+  width: 100%;
+}
+
+.reservationContainer .formContainer {
+  height: 70vh;
+  width: 100%;
+  /* border-top: 2px solid #b99272;
+  border-bottom: 2px solid #b99272; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  padding: 4px;
+}
+
+.reservationContainer .imgTwoContainer {
+  height: 70vh;
+  width: 100%;
+}
+
+.imgTwoContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgOneContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
